@@ -1,24 +1,23 @@
+// App.tsx
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route, Link } from 'react-router-dom';
+import Home from './pages-website/Home';
+import HomeApp from './pages-app/HomeApp';
 
-function App() {
+//import About from './pages/About';
+//import Contact from './pages/Contact';
+//import UserDetails from './pages/UserDetails'; // New component
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/app" element={<HomeApp />} />
+       {/*  <Route path="/contact" element={<Contact />} />*/}
+        {/* Define dynamic route */}
+     {/*   <Route path="/user/:id" element={<UserDetails />} />*/}
+      </Routes>
     </div>
   );
 }
