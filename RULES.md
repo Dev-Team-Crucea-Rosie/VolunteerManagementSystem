@@ -14,6 +14,7 @@
 - Fiecare feature dezvoltat va avea propriul branch (https://youtu.be/1SXpE08hvGs?si=nyNuHG5K51iwkKgZ).
 - Nu uitati sa preluati shimbarile de pe branch-ul in care vreti sa faceti merge.
 - Formatul mesajului de commit: "[tip]: descriere".
+- Formatul unui branch: "tip/nume".
 - Folosim timpul imperativ.
 - Limba: Engleza.
 ## Tipuri de commit-uri:
@@ -28,3 +29,11 @@
 ## EX: 
 - [fix]: repair button color change functionality
 - [style]: adjust opening brace placement in function declaration
+
+## Tipuri de Branch-uri:
+- feature/nume
+- bugfix/nume
+- hotfix/nume
+- release/nume
+- chore/nume
+- experiment/nume
