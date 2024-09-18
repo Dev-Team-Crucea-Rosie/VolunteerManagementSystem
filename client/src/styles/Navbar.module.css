@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+/* temporary text */
+.navbarLogo {
+  font-size: 1.7rem;
+  font-weight: 800;
+  padding: 0 3rem;
+  width: 20%;
+}
+
+.navbarLogo a {
+  color: #ff3305;
+  text-decoration: none;
+}
+
+/* styles for navbar links */
+.navbarLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #011e41;
+  width: 50%;
+  padding: 0 3rem;
+}
+
+.navbarLinks a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* donation button */
+
+.donateButton {
+  background-color: #011e41;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  transition: 0.2s;
+}
+
+.donateButton:hover {
+  transform: scale(1.1);
+}
