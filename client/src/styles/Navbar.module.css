@@ -8,17 +8,30 @@
   width: 100%;
 }
 
-/* temporary text */
 .navbarLogo {
-  font-size: 1.7rem;
-  font-weight: 800;
   padding: 0 3rem;
-  width: 20%;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbarLogo a {
   color: #ff3305;
   text-decoration: none;
+}
+
+.navbarLogoImg {
+  height: 100%;
+  width: 20%;
+}
+
+.navbarLogoText {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ff3305;
+  width: 80%;
+  margin-left: 5%;
 }
 
 /* styles for navbar links */
@@ -27,7 +40,7 @@
   justify-content: space-between;
   align-items: center;
   color: #011e41;
-  width: 50%;
+  width: 40%;
   padding: 0 3rem;
 }
 

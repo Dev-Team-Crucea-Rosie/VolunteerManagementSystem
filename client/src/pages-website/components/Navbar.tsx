@@ -7,7 +7,12 @@ const Navbar: React.FC = () => {
   return (
     <nav className={`${classes.navbar}`}>
       <div className={`${classes.navbarLogo}`}>
-        <Link to="/">CRUCEA ROSIE</Link>
+        <img
+          className={`${classes.navbarLogoImg}`}
+          src="../../images/LogoCRR.png"
+          alt="Logo"
+        />
+        <h5 className={`${classes.navbarLogoText}`}>FILIALA SECTOR 3</h5>
       </div>
       <ul className={`${classes.navbarLinks}`}>
         <li>
