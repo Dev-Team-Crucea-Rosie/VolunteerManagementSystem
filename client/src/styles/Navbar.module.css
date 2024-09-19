@@ -115,8 +115,22 @@
 
 /* Responsive styling */
 
-@media (max-width: 1440px) {
+@media (max-width: 1540px) {
+  .navbarLinks {
+    width: 50%;
+  }
+
+  .dropdownMenu {
+    width: 20vw;
+  }
+}
+
+@media (max-width: 1200px) {
   .navbarLinks {
     width: 60%;
+  }
+
+  .dropdownMenu {
+    width: 30vw;
   }
 }
