@@ -1,136 +1,96 @@
+/* Navbar.module.css */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 100%;
+  height: 15vh;
+  width: 100vw;
 }
 
-.navbarLogo {
-  padding: 0 3rem;
-  width: 30%;
+.navbarContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.navbarLogoImg {
-  width: 15%;
+.logo {
+  display: flex;
+  align-items: center;
 }
 
-.navbarLogoText {
-  font-size: 1.5rem;
-  font-weight: 800;
+.logoImg {
+  height: 13vh;
+}
+
+.logoText {
+  font-size: 2rem;
+  font-weight: 700;
   color: #e9262c;
-  width: 80%;
+  margin-left: 1rem;
 }
 
-/* styles for navbar links */
 .navbarLinks {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #011e41;
-  width: 40%;
-  padding: 0 3rem;
 }
 
-.navbarLinks p {
-  text-decoration: none;
+.navbarLink {
+  color: #091f2c;
   font-size: 1.2rem;
   font-weight: 500;
 }
 
-.navbarLinks a {
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 500;
+.navbarLink a {
+  color: #091f2c;
 }
-
-.navbarLinkButton {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbarLinkButton:hover {
-  cursor: pointer;
-}
-
-.navbarLinkArrDown {
-  font-size: 1.2rem;
-  margin-left: 0.5rem;
-}
-
-/* donation button */
 
 .donateButton {
-  background-color: #011e41;
+  background-color: #091f2c;
   color: #fff;
-  padding: 1rem 1.5rem;
-  transition: 0.2s;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 1rem 2rem !important;
 }
 
-.navbarLinkButton .donateButton:hover {
+.donateButton:hover {
+  color: #fff;
   transform: scale(1.05);
 }
 
-/* Dropdown Menu Styling */
-.dropdownMenu {
-  display: none;
-  position: absolute;
-  background-color: white;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  list-style-type: none;
-  margin-top: 1rem;
-  z-index: 10;
-  top: 5vh;
-  width: 10vw;
-}
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: auto;
+    width: 100%;
+  }
 
-.dropdownMenu li {
-  padding: 0.5rem 0;
-  width: 100%;
-}
-
-.dropdownMenu li a {
-  font-weight: 400;
-}
-
-.dropdownMenu li a:hover {
-  color: #e9262c;
-}
-
-/* Show dropdown on hover */
-.hasDropdown:hover .dropdownMenu {
-  display: block;
-}
-
-.hasDropdown {
-  position: relative;
-}
-
-/* Responsive styling */
-
-@media (max-width: 1540px) {
   .navbarLinks {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  .dropdownMenu {
-    width: 20vw;
+  .navbarLink {
+    width: fit-content;
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+
+  .donateButton {
+    margin: 1rem 0;
+  }
+
+  .logoText {
+    font-size: 1.2rem;
+  }
+
+  .logoImg {
+    height: 60px;
   }
 }
 
-@media (max-width: 1200px) {
-  .navbarLinks {
-    width: 60%;
-  }
-
-  .dropdownMenu {
-    width: 30vw;
-  }
+.dropdown-menu.show {
+  border-radius: 0;
 }
