@@ -1,0 +1,101 @@
+/* Navbar.module.css */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 15vh;
+  width: 100vw;
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 90%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoImg {
+  height: 13vh;
+}
+
+.logoText {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e9262c;
+  margin-left: 1rem;
+}
+
+.navbarLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarLink {
+  color: #091f2c;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.navbarLink a {
+  color: #091f2c;
+}
+
+.navbarLink div {
+  border-radius: 0;
+}
+
+.donateButton {
+  background-color: #091f2c;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 1rem 2rem !important;
+}
+
+.donateButton:hover {
+  color: #fff;
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: auto;
+    width: 100%;
+  }
+
+  .navbarLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbarLink {
+    width: fit-content;
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+
+  .donateButton {
+    margin: 1rem 0;
+  }
+
+  .logoText {
+    font-size: 1.2rem;
+  }
+
+  .logoImg {
+    height: 60px;
+  }
+}
+
+.dropdown-menu.show {
+  border-radius: 0;
+}

@@ -1,10 +1,12 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import CustomNavbar from "./components/Navbar";
 
 const Home: React.FC = () => {
   return (
     <div>
-      <h1>Homepage for Crucea Rosie Sector 3</h1>
+      <CustomNavbar />
     </div>
   );
 };
