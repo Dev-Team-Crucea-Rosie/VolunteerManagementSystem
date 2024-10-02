@@ -45,6 +45,10 @@
   color: #091f2c;
 }
 
+.navbarLink div {
+  border-radius: 0;
+}
+
 .donateButton {
   background-color: #091f2c;
   color: #fff;
