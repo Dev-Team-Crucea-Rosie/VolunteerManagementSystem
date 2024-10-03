@@ -40,11 +40,11 @@ const CustomNavbar: React.FC = () => {
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown
+              title="Activitati & Cursuri"
+              id="basic-nav-dropdown"
               className={
                 "me-4 " + classes.navbarLink + " " + classes.navbarDropdown
               }
-              title="Activitati & Cursuri"
-              id="basic-nav-dropdown"
             >
               <NavDropdown.Item as={Link} to="/contact">
                 Cursuri prim ajutor
