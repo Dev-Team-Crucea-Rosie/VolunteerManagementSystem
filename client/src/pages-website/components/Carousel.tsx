@@ -1,3 +1,5 @@
+// Carousel.tsx
+
 import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
 import classes from "../../styles/Carousel.module.css";
