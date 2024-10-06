@@ -16,7 +16,10 @@ const CustomNavbar: React.FC = () => {
           />
           <h5 className={classes.logoText}> Filiala Sector 3</h5>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          className={classes.navbarToggler}
+        />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className={"ms-auto " + classes.navbarLinks}>
             <NavDropdown

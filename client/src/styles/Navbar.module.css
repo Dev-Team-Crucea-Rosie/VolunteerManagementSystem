@@ -64,6 +64,39 @@
   transform: scale(1.05);
 }
 
+.navbar-toggler,
+.navbarToggler {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.dropdown-menu.show {
+  border-radius: 0;
+}
+
+@media screen and (max-width: 1199px) {
+  .navbar {
+    height: 10vh;
+  }
+
+  .logoText {
+    font-size: 1.5rem;
+  }
+
+  .logoImg {
+    height: 10vh;
+  }
+
+  .navbarLink {
+    font-size: 1rem;
+  }
+
+  .donateButton {
+    font-size: 1rem;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .navbar {
     height: auto;
@@ -88,7 +121,7 @@
   }
 
   .logoText {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .logoImg {
@@ -96,6 +129,8 @@
   }
 }
 
-.dropdown-menu.show {
-  border-radius: 0;
+@media screen and (max-width: 320px) {
+  .logoText {
+    font-size: 1.2rem;
+  }
 }
