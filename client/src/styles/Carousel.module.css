@@ -1,55 +1,56 @@
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
+  from {
+    opacity: 0;
+  }
 
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
 
 .fadeInText {
-    animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 2s ease-in-out;
 }
 
-.carousel>div>a {
-    bottom: 10%;
+.carousel > div > a {
+  bottom: 10%;
 }
 
 .caption {
-    height: 70%;
+  height: 70%;
 }
 
-.caption>h3 {
-    font-size: 4rem;
-    font-weight: 900;
+.caption > h3 {
+  font-size: 4rem;
+  font-weight: 900;
 }
 
-.caption>p {
-    margin-bottom: 10%;
-    font-weight: 600;
-    font-size: 2rem;
+.caption > p {
+  margin-bottom: 10%;
+  font-weight: 600;
+  font-size: 2rem;
 }
 
 .myButtonCaption {
-    margin-bottom: 10%;
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background-color: #e9262c;
-    border: none;
-    width: 20%;
-    cursor: pointer;
-    transition: 0.3s;
+  margin-bottom: 10%;
+  padding: 0.5rem !important;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: #e9262c;
+  border: none;
+  width: 20%;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .myButtonCaption:hover {
-    color: #fff;
-    transform: scale(1.05);
+  color: #fff;
+  transform: scale(1.05);
 }
