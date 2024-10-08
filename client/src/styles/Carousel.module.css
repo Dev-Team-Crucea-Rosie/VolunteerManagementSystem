@@ -16,7 +16,7 @@
   animation: fadeIn 2s ease-in-out;
 }
 
-.carousel > div > a {
+.carousel>div>a {
   bottom: 10%;
 }
 
@@ -24,12 +24,12 @@
   height: 70%;
 }
 
-.caption > h3 {
+.caption>h3 {
   font-size: 4rem;
   font-weight: 900;
 }
 
-.caption > p {
+.caption>p {
   margin-bottom: 10%;
   font-weight: 600;
   font-size: 2rem;
@@ -53,4 +53,28 @@
 .myButtonCaption:hover {
   color: #fff;
   transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 1199px) {
+  .caption {
+    padding-top: 0;
+    height: 80%;
+  }
+
+  .caption>h3 {
+    font-size: 2rem;
+  }
+
+  .caption>p {
+    font-size: 1rem;
+  }
+
+  .myButtonCaption {
+    font-size: 1rem;
+    width: 40%;
+    height: 30%;
+    margin-bottom: 20%;
+  }
+
 }
