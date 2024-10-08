@@ -1,0 +1,38 @@
+.footer {
+  background-color: #091f2c;
+  padding: 4rem 0 !important;
+}
+
+.footerLink {
+  color: #c4c4c4;
+  text-decoration: none;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.footerLink:hover {
+  color: #e9262c;
+}
+
+.footerPrivacy {
+  color: #ffffff;
+}
+
+.footerLinkGroup {
+  margin-top: 2rem;
+}
+
+.footerHeading {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1199px) {
+  .footer {
+    padding: 2rem 0 !important;
+  }
+
+  .footerHeading {
+    margin-top: 2rem;
+  }
+}
