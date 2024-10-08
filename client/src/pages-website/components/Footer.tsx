@@ -1,6 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa";
 import classes from "../../styles/Footer.module.css";
 
 const Footer: React.FC = () => {
@@ -74,14 +79,26 @@ const Footer: React.FC = () => {
               <li className={classes.footerLink}>Telefon: 0734.449.938</li>
             </ul>
             <div>
-              <a href="https://facebook.com" className="text-light me-3">
+              <a
+                href="https://www.facebook.com/p/Crucea-Rosie-Sector-3-100067346425038/?locale=ro_RO"
+                className="text-light me-3"
+                target="__blank"
+              >
                 <FaFacebookF />
               </a>
-              <a href="https://instagram.com" className="text-light me-3">
+              <a
+                href="https://www.instagram.com/crucearosieromana/?hl=ro"
+                className="text-light me-3"
+                target="__blank"
+              >
                 <FaInstagram />
               </a>
-              <a href="https://youtube.com" className="text-light">
-                <FaYoutube />
+              <a
+                href="https://www.linkedin.com/in/crucea-rosie-filiala-sector-3-25759a5b/?originalSubdomain=ro"
+                className="text-light"
+                target="__blank"
+              >
+                <FaLinkedin />
               </a>
             </div>
           </Col>
