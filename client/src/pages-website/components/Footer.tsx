@@ -15,12 +15,12 @@ const Footer: React.FC = () => {
         <Row>
           <Col md={4} className="text-center">
             <h5 className={`text-light ${classes.footerHeading}`}>
-              Cine suntem
+              Despre noi
             </h5>
             <ul className={`list-unstyled ${classes.footerLinkGroup}`}>
               <li>
-                <a href="/despre-noi" className={classes.footerLink}>
-                  Despre noi
+                <a href="/galerie" className={classes.footerLink}>
+                  Galerie media
                 </a>
               </li>
               <li>
@@ -29,8 +29,16 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="/povestile-noastre" className={classes.footerLink}>
-                  Poveștile noastre
+                <a
+                  href="https://crucearosie-sector3.ro/pdfuri/CCRFs3.pdf"
+                  className={classes.footerLink}
+                >
+                  Comitet
+                </a>
+              </li>
+              <li>
+                <a href="/docs" className={classes.footerLink}>
+                  Documente
                 </a>
               </li>
             </ul>
@@ -41,17 +49,20 @@ const Footer: React.FC = () => {
             </h5>
             <ul className={`list-unstyled ${classes.footerLinkGroup}`}>
               <li>
-                <a href="/ajuta" className={classes.footerLink}>
-                  Ajută
+                <a
+                  href="https://crucearosie-sector3.ro/wp-content/uploads/2023/03/230_SNCRR-Sector-3-1-2.pdf"
+                  className={classes.footerLink}
+                >
+                  Redirectioneaza 2% din impozit
                 </a>
               </li>
               <li>
-                <a href="/voluntariat" className={classes.footerLink}>
+                <a href="/app" className={classes.footerLink}>
                   Devino voluntar
                 </a>
               </li>
               <li>
-                <a href="/donatii" className={classes.footerLink}>
+                <a href="/doneaza" className={classes.footerLink}>
                   Donează online
                 </a>
               </li>
@@ -87,7 +98,7 @@ const Footer: React.FC = () => {
                 <FaFacebookF />
               </a>
               <a
-                href="https://www.instagram.com/crucearosieromana/?hl=ro"
+                href="https://www.instagram.com/crucearosie_sector3/"
                 className="text-light me-3"
                 target="__blank"
               >

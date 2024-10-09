@@ -5,17 +5,19 @@ import classes from "../../styles/MainContent.module.css";
 
 const MainContent: React.FC = () => {
   return (
-    <div className={classes.mainContainer}>
+    <div className={classes.mainContainer} id="cursuri">
       <div className={classes.form}>
         <h2>Înscriere cursuri prim ajutor</h2>
+
         <form className={classes.formContainer}>
+          <p>Campurile cu * sunt obligatorii</p>
           <div className={classes.formGroup}>
             <input
               type="text"
               id="nume"
               name="nume"
               required
-              placeholder="Nume"
+              placeholder="Nume*"
             />
           </div>
 
@@ -25,7 +27,7 @@ const MainContent: React.FC = () => {
               id="prenume"
               name="prenume"
               required
-              placeholder="Prenume"
+              placeholder="Prenume*"
             />
           </div>
 
@@ -35,7 +37,7 @@ const MainContent: React.FC = () => {
               id="telefon"
               name="telefon"
               required
-              placeholder="Telefon"
+              placeholder="Telefon*"
             />
           </div>
 
@@ -45,8 +47,12 @@ const MainContent: React.FC = () => {
               id="email"
               name="email"
               required
-              placeholder="Email"
+              placeholder="Email*"
             />
+          </div>
+
+          <div className={classes.formGroup}>
+            <textarea name="mesaj" id="mesaj" placeholder="Mesaj"></textarea>
           </div>
 
           <button type="submit" className={classes.submitButton}>
@@ -56,7 +62,7 @@ const MainContent: React.FC = () => {
       </div>
       <div className={classes.formPicture}>
         <img
-          src="../../images/background.jpg"
+          src="https://via.placeholder.com/600x400"
           alt="background"
           className={classes.backgroundImage}
         />

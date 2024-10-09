@@ -38,7 +38,10 @@ const CustomNavbar: React.FC = () => {
               <NavDropdown.Item as={Link} to="/contact">
                 Contact
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/service3">
+              <NavDropdown.Item
+                as={Link}
+                to="https://crucearosie-sector3.ro/pdfuri/CCRFs3.pdf"
+              >
                 Comitet CR Sector 3
               </NavDropdown.Item>
             </NavDropdown>
@@ -49,16 +52,16 @@ const CustomNavbar: React.FC = () => {
                 "me-4 " + classes.navbarLink + " " + classes.navbarDropdown
               }
             >
-              <NavDropdown.Item as={Link} to="/contact">
+              <NavDropdown.Item as={Link} to="/cursuri">
                 Cursuri prim ajutor
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/faq">
+              <NavDropdown.Item as={Link} to="/prevenire-dezastre">
                 Prevenire si inteventie dezastre
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/faq">
+              <NavDropdown.Item as={Link} to="/banca-alimente">
                 Banca de alimente
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/faq">
+              <NavDropdown.Item as={Link} to="/servicii-sociale">
                 Servicii sociale
               </NavDropdown.Item>
             </NavDropdown>

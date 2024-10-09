@@ -15,6 +15,12 @@
   margin: 5% 0 0 0;
 }
 
+.formContainer > p {
+  color: #fff;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -59,27 +65,40 @@
 
 .formGroup input::placeholder {
   color: #fff;
-  font-size: 1.1rem;
-}
-
-label {
-  font-size: 1.5rem;
-  margin-bottom: 5px;
-  color: #fff;
+  font-size: 1.2rem;
 }
 
 input {
   padding: 10px;
   border: 2px solid #fff;
-  height: 80%;
+  height: 70%;
   width: 100%;
   font-size: 1.5rem;
   background-color: transparent;
   color: #fff;
 }
 
+textarea {
+  padding: 10px;
+  border: 2px solid #fff;
+  height: 80%;
+  width: 100%;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: #fff;
+}
+
+textarea:focus {
+  outline: none;
+}
+
 input:focus {
   outline: none;
+}
+
+textarea::placeholder {
+  color: #fff;
+  font-size: 1.2rem;
 }
 
 .submitButton {
