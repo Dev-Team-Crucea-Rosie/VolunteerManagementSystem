@@ -9,13 +9,13 @@
   height: 120vh;
 }
 
-.form > h2 {
+.form>h2 {
   color: #fff;
   font-size: 3.5rem;
   margin: 5% 0 0 0;
 }
 
-.formContainer > p {
+.formContainer>p {
   color: #fff;
   font-size: 1.1rem;
   margin: 0;
@@ -25,7 +25,6 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  /* align-content: flex-start; */
   width: 50%;
   padding: 2.5%;
   padding-left: 5%;
@@ -122,7 +121,7 @@ textarea::placeholder {
   transform: scale(1.05);
 }
 
-.formPictureText > h2 {
+.formPictureText>h2 {
   font-size: 2rem;
   margin: 10% 0 5% 0;
 }
@@ -176,7 +175,7 @@ textarea::placeholder {
   object-fit: cover;
 }
 
-.newsCard > h2 {
+.newsCard>h2 {
   font-size: 2rem;
 }
 
@@ -238,16 +237,102 @@ textarea::placeholder {
     margin: 0 auto;
     margin-bottom: 10%;
   }
+
+  .formPicture {
+    display: none;
+  }
+
+  .form>h2 {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 3rem;
+  }
+
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .formContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+  }
+
+  .submitButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+
+  .formGroup {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
-  .newsHeader > h1 {
+  .newsHeader>h1 {
     font-size: 1.7rem;
   }
+
+  .formPicture {
+    display: none;
+  }
+
+  .form>h2 {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 3rem;
+  }
+
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .formContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+  }
+
+  .submitButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+
+  .formGroup {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 400px) {
-  .newsHeader > h1 {
+  .newsHeader>h1 {
     font-size: 1.5rem;
   }
 }
