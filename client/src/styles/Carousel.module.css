@@ -16,7 +16,7 @@
   animation: fadeIn 2s ease-in-out;
 }
 
-.carousel > div > a {
+.carousel>div>a {
   bottom: 10%;
 }
 
@@ -24,12 +24,12 @@
   height: 70%;
 }
 
-.caption > h3 {
+.caption>h3 {
   font-size: 4rem;
   font-weight: 900;
 }
 
-.caption > p {
+.caption>p {
   margin-bottom: 10%;
   font-weight: 600;
   font-size: 2rem;
@@ -61,40 +61,41 @@
     height: 80%;
   }
 
-  .caption > h3 {
+  .caption>h3 {
     font-size: 2rem;
   }
 
-  .caption > p {
+  .caption>p {
     font-size: 1rem;
   }
 
   .myButtonCaption {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     width: 30%;
-    height: 10%;
+    height: 15%;
     margin-bottom: 20%;
+
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .caption {
     padding-top: 0;
     height: 80%;
   }
 
-  .caption > h3 {
+  .caption>h3 {
     font-size: 1.5rem;
   }
 
-  .caption > p {
+  .caption>p {
     font-size: 1rem;
   }
 
   .myButtonCaption {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     width: 30%;
-    height: 10%;
+    height: 17.5%;
     margin-top: 0;
   }
 }
