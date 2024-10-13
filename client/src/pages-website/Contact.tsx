@@ -1,3 +1,5 @@
+// Contact.tsx
+
 import React from "react";
 import styles from "../styles/Contact.module.css";
 import CustomNavbar from "./components/Navbar";
