@@ -32,7 +32,7 @@ const CustomNavbar: React.FC = () => {
               <NavDropdown.Item as={Link} to="/service1">
                 Istoric
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/service2">
+              <NavDropdown.Item as={Link} to="/galerie-media">
                 Galerie media
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/contact">
