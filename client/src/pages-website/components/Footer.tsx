@@ -7,6 +7,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import classes from "../../styles/Footer.module.css";
+import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
   return (
@@ -19,9 +20,9 @@ const Footer: React.FC = () => {
             </h5>
             <ul className={`list-unstyled ${classes.footerLinkGroup}`}>
               <li>
-                <a href="/galerie" className={classes.footerLink}>
+                <Link to="/galerie-media" className={classes.footerLink}>
                   Galerie media
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="/echipa" className={classes.footerLink}>
