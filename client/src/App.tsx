@@ -5,6 +5,7 @@ import Home from "./pages-website/Home";
 import HomeApp from "./pages-app/HomeApp";
 import Contact from "./pages-website/Contact";
 import Gallery from "./pages-website/Gallery";
+import Istoric from "./pages-website/Istoric";
 
 //import About from './pages/About';
 //import Contact from './pages/Contact';
@@ -18,6 +19,7 @@ const App: React.FC = () => {
         <Route path="/app" element={<HomeApp />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/galerie-media" element={<Gallery />} />
+        <Route path="/istoric" element={<Istoric />} />
         {/* Define dynamic route */}
         {/*   <Route path="/user/:id" element={<UserDetails />} />*/}
       </Routes>
